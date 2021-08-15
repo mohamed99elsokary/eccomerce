@@ -26,3 +26,6 @@ class addresses(models.Model):
     def __str__(self):
         name = f"{self.country}  {self.city}  {self.street_name}  {self.bulding_number}  {self.floor_number} {self.apartment_number}"
         return name
+
+
+github_token = "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"
