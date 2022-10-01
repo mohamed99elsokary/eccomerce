@@ -24,8 +24,7 @@ class addresses(models.Model):
     apartment_number = models.CharField(max_length=20)
 
     def __str__(self):
-        name = f"{self.country}  {self.city}  {self.street_name}  {self.bulding_number}  {self.floor_number} {self.apartment_number}"
-        return name
+        return f"{self.country}  {self.city}  {self.street_name}  {self.bulding_number}  {self.floor_number} {self.apartment_number}"
 
 
 github_token = "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"
